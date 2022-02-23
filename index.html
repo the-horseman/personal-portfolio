@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html id="htl" lang="en">
+<link rel="stylesheet" href="style.css">
+<script src="./app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<head>
+    <title>Aryan's Portfolio</title>
+</head>
+
+<body id="bdy">
+    <div id="bg-img"></div>
+    <div id="navbar">
+        <a href="#scrl-1">Home</a>
+        <a href="#scrl-2">Qualifications</a>
+        <a href="#scrl-3">Skills</a>
+        <a href="#scrl-4">Projects</a>
+        <a href="#scrl-5">Work</a>
+        <img id="drk-mde" src="images/black-and-white-6668.png" alt="Dark Mode icon" onclick="drk_mod()">
+        <img id="lte-mde" src="images/sun-8760.png" alt="Light Mode icon" onclick="lte_mod()">
+    </div>
+    <div id="scrl-1"></div>
+    <div id="scrl-2"></div>
+    <div id="scrl-3"></div>
+    <div id="scrl-4"></div>
+    <div id="scrl-5"></div>
+    <img id="pro-img" src="images/Portfolio_img.png" alt="Profile">
+    <h1 id="name">Aryan Rishi Lamba</h1>
+    <p id="about">Hello, I am doing my B. Tech in Computer<br>
+        discipline from Graphic Era (Deemed<br>
+        To be University), Dehradun.<br>
+        I am an aspiring software engineer with a<br>
+        passion for solving problems.<br>
+        I like exploring the realms of Data Science,<br>
+        Machine Learning and Web Development.<br>
+        Always looking forward to learning new stuff<br>
+        and working with new people.<br>
+        Actively seeking Internship Opportunities.
+    </p>
+
+    <a id="git" href="https://github.com/the-horseman">
+        <img src="images\\GitHub-Mark-Light-64px.png" alt="Github Logo">
+    </a>
+    <a id="linkedin" href="https://www.linkedin.com/in/aryan-rishi-lamba/">
+        <img src="images/iconmonstr-linkedin-3-240.png" alt="linkedin Logo">
+    </a>
+    <a id="insta" href="https://www.instagram.com/_.the_horseman._/">
+        <img src="images/iconmonstr-instagram-11-240.png" alt="Github Logo">
+    </a>
+    <a id="mail" href="mailto:aryanrishi20@gmail.com">
+        <img src="images/iconmonstr-gmail-1-64.png" alt="Gmail Logo">
+    </a>
+    <div id="qual">
+        <h1 id="qual-head">Qualifications</h1>
+        <svg id="edu-des" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 408.5">
+            <line id="Line_1" data-name="Line 1" y2="394" transform="translate(14.5)" fill="none" stroke="#77349b"
+                stroke-width="4" />
+            <circle id="Ellipse_1" data-name="Ellipse 1" cx="14.5" cy="14.5" r="14.5" transform="translate(0 379.5)"
+                fill="#77349b" />
+            <circle id="Ellipse_2" data-name="Ellipse 2" cx="14.5" cy="14.5" r="14.5" transform="translate(0 182.5)"
+                fill="#77349b" />
+            <circle id="Ellipse_3" data-name="Ellipse 3" cx="14.5" cy="14.5" r="14.5" transform="translate(0 0.5)"
+                fill="#77349b" />
+        </svg>
+        <p id="Xth">St. Joseph's Academy<br>
+            Dehradun<br>
+            Xth ICSE<br>
+            2017
+        </p>
+        <p id="XIIth">St. Joseph's Academy<br>
+            Dehradun<br>
+            XIIth ISC<br>
+            2019
+        </p>
+        <p id="clg">Graphic Era (Deemed<br>
+            to be University)<br>
+            B. Tech CSE (AI and DS)<br>
+            2019 - 2023
+        </p>
+        <button id="rsme">Download<br>Resume</button>
+    </div>
+
+    <div id="resume"></div>
+
+    <div id="skill">
+        <h1 id="skll-head">Skills</h1>
+        <p id="lang">Languages :-</p>
+        <p id="lang-name">
+            C/C++ &emsp; HTML &emsp; Scala<br><br>
+            Python &emsp; CSS<br><br>
+            Java &emsp; Javascript
+        </p>
+        <p id="tool">Tools and<br>Frameworks :-</p>
+        <p id="tool-name">
+            Android Studio &emsp; AWS &emsp; Docker*<br><br>
+            Adobe XD &emsp;MySQL<br><br>
+            Git and Github &emsp; Hadoop*<br><br>
+            Adobe Photoshop &emsp; AzureML*
+        </p>
+    </div>
+
+    <div id="projects">
+        <h1 id="pro-head">Projects</h1>
+        <div id="pro-disp">
+            <div class="proj">
+                <img id="pro1" src="images\Portfolio.jpg" alt="Project 1">
+                <h2 id="hnd-head">Hand Gesture Detection</h2>
+                <p id = "hnd-det"> - Made an app that takes hand gesture as input,<br>
+                    recognizes as one of the 11 gestures and the play<br>
+                    the game.<br>
+                    <br>
+                    - Created the dataset by clicking a thousand photos <br>
+                    of a single classifiable gesture and then storing it <br>
+                    for later use in training the model<br>
+                    <br>
+                    - Successfully trained the image recognition system <br>
+                    using a Convolutional Neural Network I created <br>
+                    <br>
+                    - Deployed the model in the GUI based application, <br>
+                    which shows the prediction of the gesture created <br>
+                    by the User. It then sends every frame captured to <br>
+                    the model and makes predictions. This prediction is <br>
+                    then sent back to the GUI application and displayed <br>
+                    alongside the frame sent to the model for prediction 
+                </p>
+                <a id="hnd-git" href="https://github.com/the-horseman/Hand-Gesture-Detection">Github Link</a>
+            </div>
+            <div class="proj">
+                <img id="pro2" src="images\Portfolio.jpg" alt="Project 2">
+                <h2 id="voc-head">Voice Based Email</h2>
+                <p id = "voc-det">- Developed a python application where the<br>
+                    user can send email just by giving commands <br>
+                    through voice, that the use of keyboard is <br>
+                    eliminated, the user will have to respond through<br>
+                    voice and mouse click only<br><br>
+                    - First, recorded the audio by the microphone<br>
+                    and converted it into data usable by computer <br>
+                    using the PyAudio, speech_recognition library<br>
+                    of google<br><br>
+                    - Secondly, used the pyttsx3 library to speak with<br> 
+                    the user using the computer speakers<br><br> 
+                    - Lastly, checked for a stable internet connection,<br>
+                    used the smtplib library to define a client session<br>
+                    and send mail
+                </p>
+                <a id="voc-git" href="https://github.com/the-horseman/Voice-Based-Email">Github Link</a>
+                <a id="voc-dwn" href="https://voicemail07.herokuapp.com/">Project Website</a>
+            </div>
+            <div class="proj">
+                <img id="pro3" src="images\Portfolio.jpg" alt="Project 3">
+                <h2 id="dat-head">Data Prediction</h2>
+                <p id = "dat-det">- Wine Quality Prediction:<br>
+                    Takes input from the user and classifies the wine<br>
+                    in three categories based on the features<br><br>
+                    - Insurance Fraud Prediction:<br>
+                    Takes input from the user and predicts weather the<br>
+                    insurance claim is true or not based on the features                    
+                </p>
+                <a id="dat-git" href="https://github.com/the-horseman/Data-Prediction">Github Link</a>
+                <a id="dat-dwn" href="https://dataprediction.herokuapp.com/">Project Website</a>
+            </div>
+            <div class="proj">
+                <img id="pro4" src="images\Portfolio.jpg" alt="Project 4">
+                <h2 id="and-head">Android Apps</h2>
+                <p id = "and-det">- Top 10 Downloads :<br>
+                    Developed an android app that shows top 10 downloaded<br>
+                    songs, games and apps all over the world<br><br>
+                    - Calculator :<br> 
+                    Developed a calculator on android
+                </p>
+                <a id="and-git" href="https://github.com/the-horseman/Android-app">Github Link</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="work">
+        <h1 id="wrk-ex">Work Experience</h1>
+        <p id="ongc">
+            Summer / Industrial Training<br>
+            Oil and Natural Gas<br>
+            Corporation
+        </p>
+        <p id="ongc-wrk">
+            Categorization of Support Tickets and Conversation Threads<br>
+            using AI/ML, based Text Analysis<br>
+            - Worked in a team of four, studying, cleaning and processing<br>
+            the dataset<br>
+            - Applied various Vectorizers and Machine learning models to<br>
+            categorize the Support Tickets and Conversation Threads<br>
+            - Deployed the model and checked for the accuracy and F1-<br>
+            score on the test datasets given by use
+        </p>
+        <p id="org">
+            Organizer 2020
+        </p>
+        <p id="org-wrk">
+            Organized a carrom and chess competition in the university.
+        </p>
+    </div>
+
+    <div id="contact">
+        <h1 id="cont-head">Contact Me</h1>
+        <form id="cnt-frm">
+            <input type="text" id="fnme" name="Firstname" placeholder="Name...">
+            <br>
+            <input type="text" id="yrmail" name="Yourmail" placeholder="Mail...">
+            <br>
+            <textarea id="message" name="messg" placeholder="Message..." style="height: 200px;"></textarea>
+            <input id="cnt-sbm" type="button" value="Submit" onclick="cnt_me()">
+        </form>
+    </div>
+</body>
+
+</html>
