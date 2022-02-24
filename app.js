@@ -22,6 +22,8 @@ function drk_mod() {
     let id19 = document.getElementById("dat-det");
     let id20 = document.getElementById("and-head");
     let id21 = document.getElementById("and-det");
+    let id28 = document.getElementById("web-head");
+    let id29 = document.getElementById("web-det");
     let id22 = document.getElementById("wrk-ex");
     let id23 = document.getElementById("ongc");
     let id24 = document.getElementById("ongc-wrk");
@@ -60,6 +62,8 @@ function drk_mod() {
     id25.style.color = "#f0d5ff";
     id26.style.color = "white";
     id27.style.color = "#f0d5ff";
+    id29.style.color = "white";
+    id28.style.color = "#f0d5ff";
 }
 
 function lte_mod() {
@@ -92,6 +96,8 @@ function lte_mod() {
     let id25 = document.getElementById("org");
     let id26 = document.getElementById("org-wrk");
     let id27 = document.getElementById("cont-head");
+    let id28 = document.getElementById("web-head");
+    let id29 = document.getElementById("web-det");
 
 
     drk.style.display = "block";
@@ -124,6 +130,8 @@ function lte_mod() {
     id25.style.color = "#77349b";
     id26.style.color = "black";
     id27.style.color = "#77349b";
+    id29.style.color = "black";
+    id28.style.color = "#77349b";
 }
 
 
