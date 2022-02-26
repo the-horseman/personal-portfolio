@@ -23,6 +23,8 @@
     top: 0;
     width: 100%;
     z-index: 10;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
 
   #navbar a {
@@ -70,7 +72,7 @@
   #lte-mde {
     display: none;
     float: right;
-    padding-top: 4px;
+    padding-top: 12px;
     padding-right: 8px;
     transition-duration: 0.4s;
   }
@@ -268,8 +270,9 @@
   #pro6 {
     position: relative;
     height: 50%;
-    width: 50%;
+    width: 90%;
     margin-top: 7%;
+    margin-left: 5%;
     transition: transform 0.2s;
   }
 
@@ -289,58 +292,55 @@
     line-height: 0%;
     position: absolute;
     top: 0%;
-    left: 30%;
-    font-size: large;
+    left: 25%;
     color: #77349b;
-    font-size: xx-large;
+    font-size: 200%;
   }
 
   #hnd-det {
     position: absolute;
-    top: 10%;
-    left: 52%;
-    font-size: large;
+    top: 35%;
+    left: 10%;
+    font-size: 150%;
   }
 
   #voc-head {
     line-height: 0%;
     position: absolute;
     top: 0%;
-    left: 135%;
-    font-size: large;
+    left: 140%;
     color: #77349b;
-    font-size: xx-large;
+    font-size: 200%;
   }
 
   #voc-det {
     position: absolute;
-    top: 10%;
-    left: 152%;
-    font-size: large;
+    top: 35%;
+    left: 110%;
+    font-size: 150%;
   }
 
   #dat-head {
     line-height: 0%;
     position: absolute;
     top: 0%;
-    left: 240%;
-    font-size: large;
+    left: 235%;
     color: #77349b;
-    font-size: xx-large;
+    font-size: 200%;
   }
 
   #dat-det {
     position: absolute;
-    top: 10%;
-    left: 252%;
-    font-size: large;
+    top: 35%;
+    left: 210%;
+    font-size: 150%;
   }
 
   #and-det {
     position: absolute;
-    top: 10%;
-    left: 352%;
-    font-size: large;
+    top: 35%;
+    left: 310%;
+    font-size: 150%;
   }
 
   #and-head {
@@ -348,16 +348,15 @@
     position: absolute;
     top: 0%;
     left: 340%;
-    font-size: large;
     color: #77349b;
-    font-size: xx-large;
+    font-size: 200%;
   }
 
   #web-det {
     position: absolute;
-    top: 10%;
-    left: 455%;
-    font-size: large;
+    top: 35%;
+    left: 410%;
+    font-size: 150%;
   }
 
   #web-head {
@@ -365,9 +364,8 @@
     position: absolute;
     top: 0%;
     left: 430%;
-    font-size: large;
     color: #77349b;
-    font-size: xx-large;
+    font-size: 200%;
   }
 
   #hnd-git,
