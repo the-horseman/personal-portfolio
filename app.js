@@ -30,6 +30,7 @@ function drk_mod() {
     let id25 = document.getElementById("org");
     let id26 = document.getElementById("org-wrk");
     let id27 = document.getElementById("cont-head");
+    let id30 = document.getElementById("swp");
 
 
     drk.style.display = "none";
@@ -64,6 +65,7 @@ function drk_mod() {
     id27.style.color = "#f0d5ff";
     id29.style.color = "white";
     id28.style.color = "#f0d5ff";
+    id30.style.color = "white";
 }
 
 function lte_mod() {
@@ -98,6 +100,7 @@ function lte_mod() {
     let id27 = document.getElementById("cont-head");
     let id28 = document.getElementById("web-head");
     let id29 = document.getElementById("web-det");
+    let id30 = document.getElementById("swp");
 
 
     drk.style.display = "block";
@@ -132,6 +135,7 @@ function lte_mod() {
     id27.style.color = "#77349b";
     id29.style.color = "black";
     id28.style.color = "#77349b";
+    id30.style.color = "black";
 }
 
 
