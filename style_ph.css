@@ -508,6 +508,7 @@
     cursor: pointer;
     font-size: x-large;
     transition-duration: 0.4s;
+    margin-bottom: 50%;
   }
 
   #cnt-sbm:hover {
