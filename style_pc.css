@@ -244,6 +244,13 @@
     color: #77349b;
   }
 
+  #swp {
+    position: absolute;
+    top: 290%;
+    left: 10%;
+    font-size: large;
+  }
+
   #pro-disp {
     width: 70%;
     height: 70%;
