@@ -297,7 +297,7 @@
   #hnd-det {
     position: absolute;
     top: 10%;
-    left: 52%;
+    left: 56%;
     font-size: large;
   }
 
@@ -314,7 +314,7 @@
   #voc-det {
     position: absolute;
     top: 10%;
-    left: 152%;
+    left: 156%;
     font-size: large;
   }
 
@@ -331,14 +331,14 @@
   #dat-det {
     position: absolute;
     top: 10%;
-    left: 252%;
+    left: 256%;
     font-size: large;
   }
 
   #and-det {
     position: absolute;
     top: 10%;
-    left: 352%;
+    left: 356%;
     font-size: large;
   }
 
@@ -355,7 +355,7 @@
   #web-det {
     position: absolute;
     top: 10%;
-    left: 455%;
+    left: 456%;
     font-size: large;
   }
 
